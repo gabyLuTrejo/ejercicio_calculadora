@@ -7,7 +7,7 @@ h1{
 }
 
 input {
-    width: 32%;
+    width: 22%;
     padding: 12px 20px;
 }
 
@@ -19,7 +19,7 @@ input {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 18px;
   margin: 4px 2px;
   cursor: pointer;
 }
@@ -33,9 +33,9 @@ input {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
-   margin: 4px 2px;
-   cursor: pointer;
+  font-size: 18px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
 
 

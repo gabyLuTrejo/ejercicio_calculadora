@@ -13,15 +13,26 @@
     <form name="formulario">
       <table align="center">
         <tr>
+          <span> </span>
+        </tr>
+        <tr>
           <input type="text" id="pantalla" onkeypress="return numerosTeclado(event)"/>
         </tr>
+
+        <tr>
+          <td> <button type="button" valor=""  class="button2"> _ </button> </td>
+          <td> <button type="button" valor=""  class="button2"> _ </button> </td>
+          <td> <button type="button" valor="**" onclick="verNumero(this);" class="button2">yª</button> </td>
+          <td> <button type="button" valor="" onclick="borrar();" class="button2"> C </button> </td>
+        <tr>
+
         <tr>
           <td> <button type="button" valor="7" onclick="verNumero(this);" class="button"> 7 </button> </td>
           <td> <button type="button" valor="8" onclick="verNumero(this);" class="button"> 8 </button> </td>
           <td> <button type="button" valor="9" onclick="verNumero(this);" class="button"> 9 </button> </td>
           <td> <button type="button" valor="/" onclick="verNumero(this);" class="button2"> ÷ </button> </td>
-
         <tr>
+
           <td> <button type="button" valor="4" onclick="verNumero(this);" class="button"> 4 </button> </td>
           <td> <button type="button" valor="5" onclick="verNumero(this);" class="button"> 5 </button> </td>
           <td> <button type="button" valor="6" onclick="verNumero(this);" class="button"> 6 </button> </td>
