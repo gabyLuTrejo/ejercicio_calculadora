@@ -6,23 +6,24 @@
     <link rel="stylesheet" href="assets/css/style.css">
   </head>
   <body align="center">
-
-  <h1> Calculadora de Gaby</h1>
-  <br>
+    <br>
+    <h1> Calculadora de Gaby</h1>
+    <br> <br>
 
     <form name="formulario">
       <table align="center">
         <tr>
-          <span> </span>
+          <td colspan="1"><span > Ans: </span></td>
+          <td colspan="3"><span id="operacionRequerida"> </span></td>
         </tr>
         <tr>
-          <input type="text" id="pantalla" onkeypress="return numerosTeclado(event)"/>
+          <th colspan="4"><input type="text" id="pantalla" value="0" onkeypress="return numerosTeclado(event)"/></th>
         </tr>
 
         <tr>
-          <td> <button type="button" valor=""  class="button2"> _ </button> </td>
-          <td> <button type="button" valor=""  class="button2"> _ </button> </td>
+          <td> <button type="button" valor="" class="button2"> _ </button> </td>
           <td> <button type="button" valor="**" onclick="verNumero(this);" class="button2">yª</button> </td>
+          <td> <button type="button" valor=""  onclick="borrarUltimoNumero();" class="button2"> E </button> </td>
           <td> <button type="button" valor="" onclick="borrar();" class="button2"> C </button> </td>
         <tr>
 

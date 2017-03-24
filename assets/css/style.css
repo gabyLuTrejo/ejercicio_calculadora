@@ -3,12 +3,21 @@ body{
 }
 
 h1{
+  font-family:Georgia;
+  font-variant: small-caps;
+  text-align: center;
+}
+
+span{
   font-family:Lucida Console;
+  font-weight: bold;
 }
 
 input {
-    width: 22%;
+    width: 88%;
     padding: 12px 20px;
+    font-size: 16px;
+    text-align: right;
 }
 
 .button{
@@ -19,8 +28,9 @@ input {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 18px;
-  margin: 4px 2px;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 5px 3px;
   cursor: pointer;
 }
 
@@ -33,18 +43,8 @@ input {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 18px;
-  margin: 4px 2px;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 5px 3px;
   cursor: pointer;
 }
-
-
-
-
-       /*table {
-              border:3px solid black;
-              border-collapse:separate;
-              }
-           th, td {
-              border:3px solid black;
-              }*/
